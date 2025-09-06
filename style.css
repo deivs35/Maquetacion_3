@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3, p {
+    font-size: 2rem;
+}
+
+.menu-principal, .menu, .hero, nav, .titulo-programas, .titulo, .año, .cards-programas, .card, .inscripciones, .formulario, .requisitos, .mision_vision, .valores_card, .valor, .valor p, .principios_card, .principio, .principio h3, .principio p, .linea_tiempo, .documentos, .botones_documentos_2023, .botones_documentos_2025, .instituciones, .instituciones figure, footer, .logo_der img, .reflexion, fieldset {
+    display: flex;
+}
+
+.menu-principal, .titulo-programas, footer {
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav, .hero, .titulo, .año {
+    align-items: center;
+}
+
+.valor2 h3, .titulo_historia, .titulo_boton, .titulo_institucion, .titulo_valores, .titulo_convenios h2, .reflexion p {
+    text-align: center;
+}
+
+.card, .formulario, .valor p, .principio h3, .principio p {
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1, .titulo, .año, .card, .titulo_inscripciones h2, .titulo_preguntas, .titulo_boton button, .titulo_institucion h2, .mision, .vision, .titulo_valores, .valor h3, .titulo_historia, .titulo_documentos_2023, .titulo_documentos_2025, .botones_documentos_2023 button a, .botones_documentos_2025 button a, .titulo_convenios h2, .instituciones figure button, .logo_izq p, fieldset button {
+    color: #FFFFFF;
+}
+
+.logo_bilingües {
+    background-color: #ffff;
+    margin-left: 4.5rem
+}
+
+nav {
+    padding:0px 4.1rem 10px 0px;
+}
+
+.menu {
+    list-style: none;
+    gap: 3.5rem;
+}
+
+.menu-items {
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: black;    
+}
+
+.hero {
+    height: 690px;
+    width: 100%;
+    margin-top: -1.5rem;
+    background-image: url("./assets/student-sharing-her-knowledge-with-her-colleagues\ 1.png");
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-start;
+}
+
+.hero h1 {
+    font-size: 9rem;
+    padding-left: 5.5rem;
+}
+
+.titulo-programas {
+    height: 7.2rem;
+}
+
+.titulo {
+    background-color:#6CDD3C;
+    width: 70.5vw;
+    justify-content: flex-start;
+    padding-left: 5.5rem;
+}
+
+.año {
+    background-color: #CF0000;
+    width: 29.5vw;
+    padding-right: 4.2rem;
+    justify-content: flex-end;
+}
+
+.cards-programas {
+    padding: 4rem 5.5rem 5.4rem 5.5rem;
+    gap: 3rem;
+}
+
+.card {
+    width: 430px;
+    height: 430px;
+}
+
+.card h2 {
+    padding-left: 3.8rem;
+}
+
+.card1 {
+    background-image: url("./assets/Rectangle 24.png");
+}
+
+.card2 {
+    background-image: url("./assets/Rectangle\ 25.png");
+}
+
+.card3 {
+    background-image: url("./assets/Rectangle\ 26.png");
+}
+
+.card4 {
+    background-image: url("./assets/Rectangle\ 27.png");
+}
+
+.formulario {
+    background-image: url("./assets/coding-man\ 1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+fieldset {
+    flex-wrap: wrap;
+    gap: 3.1rem;   
+    padding: 7.65rem 4.27rem 5.83rem 3.68rem;
+}
+
+form fieldset {
+    background-color: #FFFFFF;
+    margin: 3.8rem 11.43rem 4.1rem 12.8rem ;
+    border-radius: 2.5rem;
+    width: 72.84rem;
+    height: 93.10rem;
+}
+
+.titulo_formulario {
+    color: #760468;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10.1rem;
+}
+
+fieldset input {
+   border-radius: 1rem; 
+   font-size: 2rem;
+}
+
+.input1, .input2, .input4, .input5 {
+    width: 30.9rem;
+    height: 6.5rem;
+}
+
+.input3 {
+    width: 64.9rem;
+    height: 6.52rem;
+}
+
+.input6 {
+    width: 64.9rem;
+    height: 25.79rem;
+}
+
+fieldset button {
+    background-color: #760468;
+    height: 72px;
+    width: 241px;
+    font-size: 2.5rem;
+    margin-left: 90px;
+}
+
+.terminos label {
+   font-size: 1.5rem;
+}
+
+.titulo_inscripciones {
+    background-color: #760468;
+    margin-left: auto;
+}
+.titulo_inscripciones h2 {
+    padding: 2rem 0rem 2rem 2.3rem;
+}
+
+.requisitos {
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 4.6rem;
+    height: 36rem; 
+    font-size: 2rem;
+}
+
+.titulo_preguntas {
+    background-color: #CF0000E5;
+}
+
+.titulo_preguntas h2 {
+    padding: 1.6rem 0rem 1.6rem 1.5rem;
+}
+
+.respuesta p {
+    margin: 4rem 3.5rem 10.4rem 2.4rem;
+}
+
+.titulo_boton button {
+    background-color: #760468;
+    width: 42.2rem;
+    height: 7.2rem;
+    font-size: 2.5rem;
+    margin-top: 7.9rem;
+    border-radius: 2.5rem;
+}
+
+.titulo_institucion {
+    background-color: #CF0000;
+    padding: 1.9rem 0rem 2.1rem;
+    margin-bottom: 2.5rem;
+}
+
+.mision {
+    background-color: #E3129A;
+}
+
+.vision {
+    background-color:#458929;
+}
+
+.mision, .vision {
+    padding: 2rem 0rem 2rem 2.5rem;
+}
+
+.grupo_mision, .grupo_vision, .principio1, .principio2, .linea_img, .documentos_2023, .documentos_2025  {
+    width: 50vw;
+}
+
+.grupo_mision p {
+    margin: 5rem 6rem 8.4rem 2.3rem;
+}
+
+.grupo_vision p {
+    margin: 6.2rem 5.7rem 14.3rem 2.5rem;
+}
+
+.titulo_valores {
+    background-color: #760468;
+    margin-bottom: 4.2rem;
+}
+
+.titulo_valores h2 {
+    padding: 2.1rem 0rem 2.7rem;
+}
+
+.titulo_valores p {
+    padding-bottom: 3.7rem;
+}
+
+.valor p {
+    font-weight: bold;
+}
+
+.valor1 h3, .valor4 h3, .principio h3 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed; 
+  align-items: stretch;
+}
+
+.valor1 h3 {
+    background-color: #6CDD3CE5;
+    padding: 7.5rem 1.7rem 7.4rem;
+}
+
+.valor1 p {
+    background-color: #6CDD3C66;
+    padding-left: 1.5rem;   
+}
+
+.valor4 h3 {
+    background-color:#E3129AE5 ;
+}
+
+.valor2 h3 {
+    background-color: #760468E5;
+    padding: 1.7rem 0rem 1.76rem;
+}
+
+.valor2 p {
+    background-color: #76046875;   
+}
+
+/* .valor2 {
+
+} */
+
+.principio h3 {
+    height: 383px;
+}
+
+.principio1 h3 {
+    background-color: #6CDD3CE5;
+    padding: 0rem 1.8rem;
+
+}
+
+.principio1 p {
+    background-color: #6CDD3C66;
+    padding-left: 7.2rem;
+}
+
+.principio2 h3 {
+    background-color: #760468;
+    padding: 0rem 1.2rem;
+
+}
+
+.principio2 p {
+    background-color: #76046875;
+    padding: 0rem 3.6rem 0rem 6.6rem;
+}
+
+.titulo_historia {
+    background-color: #CF0000;
+    padding: 2.2rem 0rem 1.9rem ;
+}
+
+.linea_img {
+    background-image: url("./assets/Captura\ de\ pantalla\ 2025-08-29\ a\ la\(s\)\ 12.22.40\ p.m.\ 1.png");
+    height: 247px;
+}
+
+.titulo_documentos_2023, .titulo_documentos_2025 {
+    background-color: #CF0000;
+    display: inline-block;
+    padding: 1.9rem 1.6rem 2.1rem 1.7rem;
+}
+
+.botones_documentos_2023, .botones_documentos_2025 {
+    flex-wrap: wrap;
+    gap:3.8rem;
+    padding: 4.6rem 11.4rem 11.1rem 9.6rem;
+}
+
+.botones_documentos_2023 button, .botones_documentos_2025 button {
+    background-color: #76046875;
+    height: 62px;
+    width: 348px;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.botones_documentos_2023 button a, .botones_documentos_2025 button a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: medium;
+}
+
+.titulo_convenios {
+    background-color: #E3129A;
+    padding: 1.9rem 0rem 2.1rem;
+}
+
+.instituciones {
+    justify-content: center;
+    padding: 6.4rem 0rem 10.5rem;
+    gap: 13.7rem;
+}
+
+.instituciones figure {
+    flex-direction: column;
+}
+
+.instituciones figure button {
+    background-color: #CF0000;
+    height: 62px;
+    width: 206px;
+    border-radius: 2.5rem;
+    font-size: 2rem;
+    margin-top: 4.1rem;
+}
+
+.reflexion {
+    flex-direction: column;
+    align-items: center;    
+    margin-bottom: 12.6rem;    
+}
+
+.reflexion p {
+    font-size: 3.5rem;
+    font-style: italic;
+}
+
+.rojo {
+    background-color: rgba(207, 0, 0, 1.5);
+    height: 13.45px;
+    width: 279.25px;
+    margin-top: -1.1rem;
+}
+
+footer {
+    background-color: black;
+}
+
+.logo_izq {
+    padding: 4.5rem 0rem 4.8rem 5.8rem;
+}
+
+.logo_der {
+    align-items: center;
+}
