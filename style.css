@@ -13,33 +13,106 @@ h2 {
     font-size: 4rem;
 }
 
-h3, p {
+h3,
+p {
     font-size: 2rem;
 }
 
-.menu-principal, .menu, .hero, nav, .titulo-programas, .titulo, .año, .cards-programas, .card, .inscripciones, .formulario, .requisitos, .mision_vision, .valores_card, .valor, .valor p, .principios_card, .principio, .principio h3, .principio p, .linea_tiempo, .documentos, .botones_documentos_2023, .botones_documentos_2025, .instituciones, .instituciones figure, footer, .logo_der img, .reflexion, fieldset {
+.menu-principal,
+.menu,
+.hero,
+.lista_menu,
+.titulo-programas,
+.titulo,
+.año,
+.cards-programas,
+.card,
+.inscripciones,
+.formulario,
+.requisitos,
+.mision_vision,
+.valores_card,
+.valor,
+.valor p,
+.principios_card,
+.principio,
+.principio h3,
+.principio p,
+.linea_tiempo,
+.documentos,
+.botones_documentos_2023,
+.botones_documentos_2025,
+.instituciones,
+.instituciones figure,
+footer,
+.logo_der,
+.reflexion,
+fieldset {
     display: flex;
 }
 
-.menu-principal, .titulo-programas, footer {
+.menu-principal,
+.titulo-programas,
+footer {
     justify-content: space-between;
     width: 100%;
 }
 
-nav, .hero, .titulo, .año {
+.lista_menu,
+.hero,
+.titulo,
+.año {
     align-items: center;
 }
 
-.valor2 h3, .titulo_historia, .titulo_boton, .titulo_institucion, .titulo_valores, .titulo_convenios h2, .reflexion p {
+
+.cards-programas,
+.valor h3,
+.titulo_historia,
+.titulo_boton,
+.titulo_institucion,
+.titulo_valores,
+.titulo_convenios h2,
+.reflexion p {
     text-align: center;
 }
 
-.card, .formulario, .valor p, .principio h3, .principio p {
+.card,
+.formulario,
+.valor p,
+.principio h3,
+.principio p,
+.valores_card {
     justify-content: center;
     align-items: center;
 }
 
-.hero h1, .titulo, .año, .card, .titulo_inscripciones h2, .titulo_preguntas, .titulo_boton button, .titulo_institucion h2, .mision, .vision, .titulo_valores, .valor h3, .titulo_historia, .titulo_documentos_2023, .titulo_documentos_2025, .botones_documentos_2023 button a, .botones_documentos_2025 button a, .titulo_convenios h2, .instituciones figure button, .logo_izq p, fieldset button {
+.cards-programas,
+.valores_card {
+    flex-wrap: wrap;
+}
+
+.hero h1,
+.titulo,
+.año,
+.card,
+.titulo_inscripciones h2,
+.titulo_preguntas,
+.titulo_boton button,
+.titulo_institucion h2,
+.mision,
+.vision,
+.titulo_valores,
+.valor h3,
+.titulo_historia,
+.titulo_documentos_2023,
+.titulo_documentos_2025,
+.botones_documentos_2023 button a,
+.botones_documentos_2025 button a,
+.titulo_convenios h2,
+.instituciones figure button,
+.logo_izq p,
+fieldset button {
     color: #FFFFFF;
 }
 
@@ -48,8 +121,8 @@ nav, .hero, .titulo, .año {
     margin-left: 4.5rem
 }
 
-nav {
-    padding:0px 4.1rem 10px 0px;
+.lista_menu {
+    padding: 0px 4.1rem 10px 0px;
 }
 
 .menu {
@@ -61,7 +134,7 @@ nav {
     font-family: Montserrat, sans-serif;
     text-decoration: none;
     font-size: 1.7rem;
-    color: black;    
+    color: black;
 }
 
 .hero {
@@ -84,7 +157,7 @@ nav {
 }
 
 .titulo {
-    background-color:#6CDD3C;
+    background-color: #6CDD3C;
     width: 70.5vw;
     justify-content: flex-start;
     padding-left: 5.5rem;
@@ -98,8 +171,8 @@ nav {
 }
 
 .cards-programas {
-    padding: 4rem 5.5rem 5.4rem 5.5rem;
-    gap: 3rem;
+    padding: 4rem 0rem;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -135,13 +208,13 @@ nav {
 
 fieldset {
     flex-wrap: wrap;
-    gap: 3.1rem;   
+    gap: 3.1rem;
     padding: 7.65rem 4.27rem 5.83rem 3.68rem;
 }
 
 form fieldset {
     background-color: #FFFFFF;
-    margin: 3.8rem 11.43rem 4.1rem 12.8rem ;
+    margin: 3.8rem 11.43rem 4.1rem 12.8rem;
     border-radius: 2.5rem;
     width: 72.84rem;
     height: 93.10rem;
@@ -155,11 +228,14 @@ form fieldset {
 }
 
 fieldset input {
-   border-radius: 1rem; 
-   font-size: 2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
 }
 
-.input1, .input2, .input4, .input5 {
+.input1,
+.input2,
+.input4,
+.input5 {
     width: 30.9rem;
     height: 6.5rem;
 }
@@ -183,13 +259,14 @@ fieldset button {
 }
 
 .terminos label {
-   font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .titulo_inscripciones {
     background-color: #760468;
     margin-left: auto;
 }
+
 .titulo_inscripciones h2 {
     padding: 2rem 0rem 2rem 2.3rem;
 }
@@ -198,7 +275,7 @@ fieldset button {
     justify-content: center;
     flex-direction: column;
     padding-left: 4.6rem;
-    height: 36rem; 
+    height: 36rem;
     font-size: 2rem;
 }
 
@@ -234,14 +311,21 @@ fieldset button {
 }
 
 .vision {
-    background-color:#458929;
+    background-color: #458929;
 }
 
-.mision, .vision {
+.mision,
+.vision {
     padding: 2rem 0rem 2rem 2.5rem;
 }
 
-.grupo_mision, .grupo_vision, .principio1, .principio2, .linea_img, .documentos_2023, .documentos_2025  {
+.grupo_mision,
+.grupo_vision,
+.principio1,
+.principio2,
+.linea_img,
+.documentos_2023,
+.documentos_2025 {
     width: 50vw;
 }
 
@@ -266,42 +350,97 @@ fieldset button {
     padding-bottom: 3.7rem;
 }
 
+.valor {
+    height: 383px;
+    width: 387.4px;
+}
+
 .valor p {
     font-weight: bold;
 }
 
-.valor1 h3, .valor4 h3, .principio h3 {
-  writing-mode: vertical-rl;
-  text-orientation: mixed; 
-  align-items: stretch;
+.valor1 h3,
+.valor4 h3,
+.principio h3 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    align-items: stretch;
+}
+
+.valor1 h3,
+.valor4 h3 {
+    width: 5.7rem;
+}
+
+.valor1 h3 {
+    writing-mode: sideways-lr;
+}
+
+.valor2 h3,
+.valor3 h3,
+.valor5 h3 {
+    height: 5.7rem;
+}
+
+.valor p {
+    height: 100%;
 }
 
 .valor1 h3 {
     background-color: #6CDD3CE5;
-    padding: 7.5rem 1.7rem 7.4rem;
+    padding: 0rem 1.7rem;
 }
 
 .valor1 p {
     background-color: #6CDD3C66;
-    padding-left: 1.5rem;   
-}
-
-.valor4 h3 {
-    background-color:#E3129AE5 ;
+    padding: 0rem 1.5rem;
 }
 
 .valor2 h3 {
     background-color: #760468E5;
-    padding: 1.7rem 0rem 1.76rem;
+    padding: 1.7rem 0rem;
+}
+
+.valor2,
+.valor3,
+.valor5 {
+    flex-direction: column;
 }
 
 .valor2 p {
-    background-color: #76046875;   
+    background-color: #76046875;
+    padding: 0rem 4.2rem;
 }
 
-/* .valor2 {
+.valor3 h3 {
+    background-color: #CF0000E5;
+    padding: 1.75rem 0rem;
+}
 
-} */
+.valor3 p {
+    background-color: #e78080;
+    padding: 0rem 4.2rem;
+}
+
+.valor4 h3 {
+    background-color: #E3129AE5;
+    padding: 0rem 1.75rem;
+}
+
+.valor5 p {
+    background-color: #f188cc;
+    padding: 0rem 4.2rem;
+}
+
+.valor5 h3 {
+    background-color: #760468E8;
+    padding: 1.75rem 0rem;
+}
+
+.valor4 p {
+    background-color: #C08CBA;
+    padding: 0rem 4.2rem;
+}
 
 .principio h3 {
     height: 383px;
@@ -331,7 +470,7 @@ fieldset button {
 
 .titulo_historia {
     background-color: #CF0000;
-    padding: 2.2rem 0rem 1.9rem ;
+    padding: 2.2rem 0rem 1.9rem;
 }
 
 .linea_img {
@@ -339,19 +478,22 @@ fieldset button {
     height: 247px;
 }
 
-.titulo_documentos_2023, .titulo_documentos_2025 {
+.titulo_documentos_2023,
+.titulo_documentos_2025 {
     background-color: #CF0000;
     display: inline-block;
     padding: 1.9rem 1.6rem 2.1rem 1.7rem;
 }
 
-.botones_documentos_2023, .botones_documentos_2025 {
+.botones_documentos_2023,
+.botones_documentos_2025 {
     flex-wrap: wrap;
-    gap:3.8rem;
+    gap: 3.8rem;
     padding: 4.6rem 11.4rem 11.1rem 9.6rem;
 }
 
-.botones_documentos_2023 button, .botones_documentos_2025 button {
+.botones_documentos_2023 button,
+.botones_documentos_2025 button {
     background-color: #76046875;
     height: 62px;
     width: 348px;
@@ -359,7 +501,8 @@ fieldset button {
     text-decoration: none;
 }
 
-.botones_documentos_2023 button a, .botones_documentos_2025 button a {
+.botones_documentos_2023 button a,
+.botones_documentos_2025 button a {
     text-decoration: none;
     font-size: 2rem;
     font-weight: medium;
@@ -391,8 +534,8 @@ fieldset button {
 
 .reflexion {
     flex-direction: column;
-    align-items: center;    
-    margin-bottom: 12.6rem;    
+    align-items: center;
+    margin-bottom: 12.6rem;
 }
 
 .reflexion p {
