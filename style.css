@@ -95,7 +95,13 @@ footer,
 .menu-principal,
 .botones_documentos_2023,
 .botones_documentos_2025,
-fieldset, .mision_vision, .linea_tiempo, .documentos, .instituciones, .footer {
+fieldset,
+.mision_vision,
+.linea_tiempo,
+.documentos,
+.instituciones,
+.footer,
+.principios_card {
     flex-wrap: wrap;
 }
 
@@ -189,7 +195,7 @@ fieldset button {
 }
 
 .card h2 {
-    padding-left: 3.8rem;   
+    padding-left: 3.8rem;
 }
 
 .card1 {
@@ -238,8 +244,8 @@ form fieldset {
 
 fieldset input {
     border-radius: 1rem;
-    font-size: 2rem;    
-    padding:2.1rem ;
+    font-size: 2rem;
+    padding: 2.1rem;
 }
 
 .input1,
@@ -581,7 +587,8 @@ footer {
         flex-direction: column;
     }
 
-    .inscripciones_preguntas, .formulario {
+    .inscripciones_preguntas,
+    .formulario {
         width: 100%;
     }
 
@@ -593,16 +600,85 @@ footer {
         text-align: center;
     }
 
-    
+
 }
 
 
 @media screen and (max-width: 780px) {
-    .principio, .grupo_mision, .grupo_vision, .linea_img, .documentos_2023, .documentos_2025, .titulo_documentos_2023, .titulo_documentos_2025 {
-        width:100%;
+
+    .principio,
+    .grupo_mision,
+    .grupo_vision,
+    .linea_img,
+    .documentos_2023,
+    .documentos_2025,
+    .titulo_documentos_2023,
+    .titulo_documentos_2025 {
+        width: 100%;
     }
 
     .footer {
+        justify-content: center;
+    }
+
+    .principio {
+        height: 383px;
+        width: 387.4px;
+    }
+
+    .principios_card {
+        justify-content: center;
+    }   
+        
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    button {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    .menu {
+        gap: 0px;
+    }
+
+    .menu-items {
+        font-size: 1.4rem;
+    }
+
+    .hero {
+        margin: 0px;
+    }
+
+    .menu-principal {
+        justify-content: center;
+    }
+
+    .lista_menu {
+        padding: 1rem 0rem;
+    }
+
+    .menu {
+        gap: 1rem;
+    }
+
+    .botones_documentos_2023, .botones_documentos_2025 {
         justify-content: center;
     }
 }
