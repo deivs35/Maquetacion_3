@@ -681,4 +681,8 @@ footer {
     .botones_documentos_2023, .botones_documentos_2025 {
         justify-content: center;
     }
+
+    .logo_der {
+        width: 100%;
+    }
 }
