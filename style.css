@@ -9,6 +9,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    padding: 0rem 5rem;
+}
+
 h2 {
     font-size: 4rem;
 }
@@ -47,13 +51,15 @@ p {
 footer,
 .logo_der,
 .reflexion,
-fieldset {
+fieldset,
+.terminos {
     display: flex;
 }
 
 .menu-principal,
 .titulo-programas,
-footer {
+footer,
+.terminos {
     justify-content: space-between;
     width: 100%;
 }
@@ -61,7 +67,8 @@ footer {
 .lista_menu,
 .hero,
 .titulo,
-.año {
+.año,
+.terminos {
     align-items: center;
 }
 
@@ -88,7 +95,11 @@ footer {
 }
 
 .cards-programas,
-.valores_card {
+.valores_card,
+.menu-principal,
+.botones_documentos_2023,
+.botones_documentos_2025,
+fieldset, .mision_vision, .linea_tiempo, .documentos, .instituciones, .footer {
     flex-wrap: wrap;
 }
 
@@ -176,12 +187,13 @@ fieldset button {
 }
 
 .card {
+    margin-top: 20px;
     width: 430px;
     height: 430px;
 }
 
 .card h2 {
-    padding-left: 3.8rem;
+    padding-left: 3.8rem;   
 }
 
 .card1 {
@@ -207,17 +219,18 @@ fieldset button {
 }
 
 fieldset {
-    flex-wrap: wrap;
     gap: 3.1rem;
-    padding: 7.65rem 4.27rem 5.83rem 3.68rem;
+    ;
 }
 
 form fieldset {
     background-color: #FFFFFF;
-    margin: 3.8rem 11.43rem 4.1rem 12.8rem;
+    margin: 3.9rem auto;
     border-radius: 2.5rem;
-    width: 72.84rem;
+    width: 90%;
+    max-width: 72.84rem;
     height: 93.10rem;
+    padding: 7.65rem 4.27rem 5.83rem 3.68rem
 }
 
 .titulo_formulario {
@@ -229,25 +242,26 @@ form fieldset {
 
 fieldset input {
     border-radius: 1rem;
-    font-size: 2rem;
+    font-size: 2rem;    
+    padding:2.1rem ;
 }
 
 .input1,
 .input2,
 .input4,
 .input5 {
-    width: 30.9rem;
+    width: 45%;
     height: 6.5rem;
 }
 
 .input3 {
-    width: 64.9rem;
+    width: 96%;
     height: 6.52rem;
 }
 
 .input6 {
-    width: 64.9rem;
-    height: 25.79rem;
+    width: 96%;
+    height: 32.6%;
 }
 
 fieldset button {
@@ -255,7 +269,10 @@ fieldset button {
     height: 72px;
     width: 241px;
     font-size: 2.5rem;
-    margin-left: 90px;
+}
+
+.terminos input {
+    margin-right: 1.4rem;
 }
 
 .terminos label {
@@ -325,8 +342,10 @@ fieldset button {
 .principio2,
 .linea_img,
 .documentos_2023,
-.documentos_2025 {
-    width: 50vw;
+.documentos_2025,
+.inscripciones_preguntas,
+.formulario {
+    width: 50%;
 }
 
 .grupo_mision p {
@@ -487,7 +506,6 @@ fieldset button {
 
 .botones_documentos_2023,
 .botones_documentos_2025 {
-    flex-wrap: wrap;
     gap: 3.8rem;
     padding: 4.6rem 11.4rem 11.1rem 9.6rem;
 }
@@ -496,7 +514,7 @@ fieldset button {
 .botones_documentos_2025 button {
     background-color: #76046875;
     height: 62px;
-    width: 348px;
+    width: 188.5px;
     border-radius: 2rem;
     text-decoration: none;
 }
@@ -505,7 +523,6 @@ fieldset button {
 .botones_documentos_2025 button a {
     text-decoration: none;
     font-size: 2rem;
-    font-weight: medium;
 }
 
 .titulo_convenios {
@@ -560,4 +577,36 @@ footer {
 
 .logo_der {
     align-items: center;
+}
+
+
+@media screen and (max-width: 1336px) {
+    .inscripciones {
+        flex-direction: column;
+    }
+
+    .inscripciones_preguntas, .formulario {
+        width: 100%;
+    }
+
+    .inscripciones_preguntas {
+        margin-bottom: 1rem;
+    }
+
+    .respuesta p {
+        text-align: center;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 780px) {
+    .principio, .grupo_mision, .grupo_vision, .linea_img, .documentos_2023, .documentos_2025, .titulo_documentos_2023, .titulo_documentos_2025 {
+        width:100%;
+    }
+
+    .footer {
+        justify-content: center;
+    }
 }
