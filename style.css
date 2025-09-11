@@ -21,7 +21,6 @@ p {
 .menu-principal,
 .menu,
 .hero,
-.lista_menu,
 .titulo-programas,
 .titulo,
 .año,
@@ -60,7 +59,7 @@ footer,
     width: 100%;
 }
 
-.lista_menu,
+.menu,
 .hero,
 .titulo,
 .año,
@@ -134,12 +133,9 @@ fieldset button {
     margin-left: 4.5rem
 }
 
-.lista_menu {
-    padding: 0px 4.1rem 10px 0px;
-}
-
 .menu {
     list-style: none;
+    padding: 0px 4.1rem 10px 0px;
     gap: 3.5rem;
 }
 
@@ -148,6 +144,20 @@ fieldset button {
     text-decoration: none;
     font-size: 1.7rem;
     color: black;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    margin: 8px 10px 21px 
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin: 5px auto;
+    background-color: #fff;
 }
 
 .hero {
@@ -575,10 +585,14 @@ footer {
 
 .logo_izq {
     padding: 4.5rem 0rem 4.8rem 5.8rem;
+    height: "157.3px";
+    width: "402.12px"
 }
 
 .logo_der {
     align-items: center;
+    height:"144.9px";
+    width:"566.74px"
 }
 
 
@@ -606,6 +620,10 @@ footer {
 
 @media screen and (max-width: 780px) {
 
+    html {
+        font-size: 50%;
+    }
+
     .principio,
     .grupo_mision,
     .grupo_vision,
@@ -628,24 +646,41 @@ footer {
 
     .principios_card {
         justify-content: center;
-    }   
-        
+    }
+
+    .menu-toggle {
+        display: block;
+        background-color: black;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        text-align: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+    
+    
+    .menu.active {
+        display: flex;
+    }
 }
 
 
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 3.2rem;
-    }
+@media screen and (max-width: 480px) {
 
-    h2 {
-        font-size: 2.4rem;
+    html {
+        font-size: 40%;
     }
-
-    h3 {
-        font-size: 1.8rem;
-    }
-
+    
     button {
         font-size: 1.6rem;
     }
@@ -666,23 +701,27 @@ footer {
         margin: 0px;
     }
 
-    .menu-principal {
+    .botones_documentos_2023,
+    .botones_documentos_2025,
+    .logo_der {
         justify-content: center;
-    }
-
-    .lista_menu {
-        padding: 1rem 0rem;
     }
 
     .menu {
-        gap: 1rem;
+        padding: 1rem 0rem;
+    }    
+
+    .logo_der,
+    .logo_izq {
+        height: auto;
+        padding: 0;
     }
 
-    .botones_documentos_2023, .botones_documentos_2025 {
-        justify-content: center;
+    .logo_izq {
+        text-align: center;
     }
 
-    .logo_der {
+    .logo_izq , .logo_der img {
         width: 100%;
     }
 }
