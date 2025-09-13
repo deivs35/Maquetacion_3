@@ -16,32 +16,36 @@
 
 <body>
     <header>
-        <div class="menu-principal">
-            <figure class="logo_bilingües">
-                <img src="./assets/Bilingües.png" alt="Logo Bilingües" height="54px" width="189px">
-            </figure>
-            <nav>
-                <ul class="menu">
-                    <li><a class="menu-items" href="#">Inicio</a></li>
-                    <li><a class="menu-items" href="#">Programas</a></li>
-                    <li><a class="menu-items" href="#">Inscripciones</a></li>
-                    <li><a class="menu-items" href="#">Institucional</a></li>
-                    <li><a class="menu-items" href="#">Convenios</a></li>
-                    <li><a class="menu-items" href="#">Contacto</a></li>
-                    <li><a class="menu-items" href="#">SGA Q10</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="menu-principal">
+            <a href="index.html" class="logo_bilingües">
+                <img src="./assets/Bilingües.png" alt="Logo Bilingües encabezado" height="54px" width="189px">
+            </a>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a class="menu-items" href="#">Inicio</a></li>
+                <li><a class="menu-items" href="#">Programas</a></li>
+                <li><a class="menu-items" href="#">Inscripciones</a></li>
+                <li><a class="menu-items" href="#">Institucional</a></li>
+                <li><a class="menu-items" href="#">Convenios</a></li>
+                <li><a class="menu-items" href="#">Contacto</a></li>
+                <li><a class="menu-items" href="#">SGA Q10</a></li>
+            </ul>
+
+            <div class="hero">
+                <div class="titulo_presentacion">
+                    <h2>PROGRAMA DE CONOCIMIENTOS ACADEMICOS EN DISEÑO Y CREACION DE PAGINAS WEB</h2>
+                </div>
+                <div class="texto_presentacion">
+                    <p>RESOLUCIÓN 06-098 DE 2019 S.E.D</p>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-        <section class="presentacion">
-            <div class="titulo_presentacion">
-                <h2>PROGRAMA DE CONOCIMIENTOS ACADEMICOS EN DISEÑO Y CREACION DE PAGINAS WEB</h2>
-            </div>
-            <div class="texto_presentacion">
-                <p>RESOLUCIÓN 06-098 DE 2019 S.E.D</p>
-            </div>
-        </section>
         <section class="plan">
             <div class="plan_estudio">
                 <div class="caja caja1">.</div>
@@ -50,7 +54,8 @@
                     <p>El Creador de Páginas Web es un profesional que combina destrezas creativas y técnicas para
                         construir la presencia digital de empresas y proyectos.Es capaz de diseñar sitios web que no
                         solo son visualmente atractivos, sino también funcionales y adaptados a las necesidades
-                        específicas del cliente.<br><br>Su habilidad va más allá de la estética, abordando la experiencia del usuario y la usabilidad.
+                        específicas del cliente.<br><br>Su habilidad va más allá de la estética, abordando la
+                        experiencia del usuario y la usabilidad.
                         Desde la elección cuidadosa de elementos visuales hasta la implementación hábil de códigos, el
                         Creador de Páginas Web se esfuerza por garantizar una navegación fluida y una interacción
                         intuitiva.</p>
@@ -65,11 +70,11 @@
                     <fieldset>
                         <label class="titulo_formulario" for="">FORMULARIO DE PRE-INSCRIPCION</label>
                         <input class="input1" type="text" placeholder="Nombres" autofocus>
-                        <input class="input2" type="text" placeholder="Apellidos" autofocus>
-                        <input class="input3" type="text" placeholder="Correo" autofocus>
-                        <input class="input4" type="text" placeholder="Celular" autofocus>
-                        <input class="input5" type="text" placeholder="Asunto" autofocus>
-                        <input class="input6" type="text" placeholder="Mensaje" autofocus>
+                        <input class="input2" type="text" placeholder="Apellidos">
+                        <input class="input3" type="text" placeholder="Correo">
+                        <input class="input4" type="text" placeholder="Celular">
+                        <input class="input5" type="text" placeholder="Asunto">
+                        <input class="input6" type="text" placeholder="Mensaje">
                         <div class="terminos">
                             <input type="checkbox" autofocus>
                             <label for="">Acepto terminos y condiciones</label>
@@ -85,29 +90,25 @@
                     <div>
                         <h2>Perfil profesional</h2>
                     </div>
-                    <div>
-                        <ul>
-                            <li>Serás capaz de crear páginas web hechas con los tres lenguajes (html, css y javascript).
-                            </li>
-                            <li>Crearás contenido para la web que responda a las necesidades del mercado.</li>
-                            <li>Manejarás conceptos claves de lógica computacional aplicables a otros campos de la
-                                informática.</li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>Serás capaz de crear páginas web hechas con los tres lenguajes (html, css y javascript).
+                        </li>
+                        <li>Crearás contenido para la web que responda a las necesidades del mercado.</li>
+                        <li>Manejarás conceptos claves de lógica computacional aplicables a otros campos de la
+                            informática.</li>
+                    </ul>
                 </div>
                 <div>
                     <div>
                         <h2>Desempeñate cómo</h2>
                     </div>
-                    <div>
-                        <ul>
-                            <li>Diseñador de páginas web.</li>
-                            <li>Maquetador web.</li>
-                            <li>Content manager.</li>
-                            <li>Especialista en transformación digital.</li>
-                            <li>Programador frontend junior.</li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>Diseñador de páginas web.</li>
+                        <li>Maquetador web.</li>
+                        <li>Content manager.</li>
+                        <li>Especialista en transformación digital.</li>
+                        <li>Programador frontend junior.</li>
+                    </ul>
                 </div>
             </div>
             <div>

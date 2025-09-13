@@ -678,12 +678,12 @@ footer {
 
     .menu {
         display: none;
-        width: 100%;
+        width: 30%;
         flex-direction: column;
-        background-color: #333;
+        background-color: #ffffff;
         position: absolute;
-        top: 60px;
-        left: 0;
+        top: 49px;
+        right: 0;
         text-align: center;
     }
 
