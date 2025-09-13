@@ -11,7 +11,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,12 +26,21 @@
                 <span class="bar"></span>
             </div>
             <ul class="menu" id="menu">
-                <li><a class="menu-items" href="#">Inicio</a></li>
-                <li><a class="menu-items" href="#">Programas</a></li>
-                <li><a class="menu-items" href="#">Inscripciones</a></li>
-                <li><a class="menu-items" href="#">Institucional</a></li>
-                <li><a class="menu-items" href="#">Convenios</a></li>
-                <li><a class="menu-items" href="#">Contacto</a></li>
+                <li><a class="menu-items" href="index.html">Inicio</a></li>
+                <li><a class="menu-items" href="#programas">Programas ▾</a>
+                    <ul class="sub_menu">
+                        <li><a class="sub-menu-items" href="ingles.html">INGLES</a></li>
+                        <li><a class="sub-menu-items" href="programacion.html">DISEÑO WEB</a></li>
+                        <li><a class="sub-menu-items" href="primerainfancia.html">PRIMERA INFANCIA</a></li>
+                        <li><a class="sub-menu-items" href="adultomayor.html">CUIDADO DE ADULTO MAYOR</a></li>
+                        <li><a class="sub-menu-items" href="talentohumano.html">AUXILIAR DE TALENTO HUMANO</a></li>
+                        <li><a class="sub-menu-items" href="auxcontable.html">AUXILIAR CONTABLE Y FINANCIERO</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu-items" href="#inscripciones">Inscripciones</a></li>
+                <li><a class="menu-items" href="#institucion">Institucional</a></li>
+                <li><a class="menu-items" href="#convenios">Convenios</a></li>
+                <li><a class="menu-items" href="#contacto">Contacto</a></li>
                 <li><a class="menu-items" href="#">SGA Q10</a></li>
             </ul>
         </nav>
@@ -65,7 +73,7 @@
                 </article>
             </div>
         </section>
-        <section class="inscripciones">
+        <section class="inscripciones" id="inscripciones">
             <div class="inscripciones_preguntas">
                 <div class="inscripciones_info">
                     <div class="titulo_inscripciones">
@@ -116,7 +124,7 @@
                 </form>
             </div>
         </section>
-        <section class="institucion">
+        <section class="institucion" id="institucion">
             <div class="titulo_institucion">
                 <h2>NUESTRA INSTITUCION</h2>
             </div>
@@ -246,7 +254,7 @@
                 </div>
             </div>
         </section>
-        <section class="convenios">
+        <section class="convenios" id="convenios">
             <div class="titulo_convenios">
                 <h2>CONVENIOS</h2>
             </div>
@@ -281,7 +289,7 @@
 
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contacto">
         <figure class="logo_izq">
             <img src="./assets/Logo-Bilingues-Blanco-1.png" alt="logo Bilingües">
             <p>Dg 47a # 53 - 46 sur - oficina Bilingües</p>

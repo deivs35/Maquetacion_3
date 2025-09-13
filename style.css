@@ -156,7 +156,7 @@ fieldset button {
 .menu-toggle {
     display: none;
     cursor: pointer;
-    margin: 8px 10px 21px 
+    margin: 8px 10px 21px
 }
 
 .bar {
@@ -166,6 +166,42 @@ fieldset button {
     margin: 5px auto;
     background-color: #fff;
 }
+
+/*Estilo sub-menu*/
+
+.menu li {
+    position: relative;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    list-style: none;
+}
+
+.menu li:hover .sub_menu {
+    display: block;
+}
+
+.sub_menu {
+    width: 165px;
+}
+.sub_menu li {
+    padding: 10px 20px;
+}
+
+.sub-menu-items {
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+
+/*Estilo de hero*/
 
 .hero {
     height: 690px;
@@ -614,8 +650,8 @@ footer {
 
 .logo_der {
     align-items: center;
-    height:"144.9px";
-    width:"566.74px"
+    height: "144.9px";
+    width: "566.74px"
 }
 
 
@@ -690,8 +726,8 @@ footer {
     .menu li {
         margin: 10px 0;
     }
-    
-    
+
+
     .menu.active {
         display: flex;
     }
@@ -732,7 +768,7 @@ footer {
 
     .menu {
         padding: 1rem 0rem;
-    }    
+    }
 
     .logo_der,
     .logo_izq {
@@ -744,7 +780,8 @@ footer {
         text-align: center;
     }
 
-    .logo_izq , .logo_der img {
+    .logo_izq,
+    .logo_der img {
         width: 100%;
     }
 }
