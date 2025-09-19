@@ -10,6 +10,8 @@ html {
 
 body {
     font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -48,7 +50,7 @@ p {
 .botones_documentos_2025,
 .instituciones,
 .instituciones figure,
-footer,
+.footer,
 .logo_der,
 .reflexion,
 fieldset,
@@ -58,10 +60,9 @@ fieldset,
 
 .menu-principal,
 .titulo-programas,
-footer,
+.footer,
 .terminos {
     justify-content: space-between;
-    width: 100%;
 }
 
 .menu,
@@ -94,7 +95,10 @@ footer,
     align-items: center;
 }
 
-.cards-programas,
+.requisitos, .valor, .principio, .instituciones figure, .reflexion {
+    flex-direction: column;
+}
+
 .valores_card,
 .menu-principal,
 .botones_documentos_2023,
@@ -133,6 +137,19 @@ fieldset button {
     color: #FFFFFF;
 }
 
+/*faja*/
+
+.faja {
+    width:100%;
+    max-width: 1280px;      
+    margin: 0 auto; 
+}
+
+header {
+    background-image: url("./assets/student-sharing-her-knowledge-with-her-colleagues\ 1.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
 /*Estilos del header */
 
 .logo_bilingües {
@@ -205,12 +222,8 @@ fieldset button {
 
 .hero {
     height: 690px;
-    width: 100%;
     margin-top: -1.5rem;
-    background-image: url("./assets/student-sharing-her-knowledge-with-her-colleagues\ 1.png");
-    background-size: cover;
-    background-position: center;
-    justify-content: flex-start;
+    
 }
 
 .hero h1 {
@@ -220,33 +233,30 @@ fieldset button {
 
 /*Estilos para la primera sección programas*/
 
-.titulo-programas {
-    height: 7.2rem;
+.color-programas {
+    background: linear-gradient(90deg,rgba(108, 221, 60, 1) 70%, rgba(207, 0, 0, 1) 70%);
 }
 
 .titulo {
-    background-color: #6CDD3C;
-    width: 70.5vw;
     justify-content: flex-start;
     padding-left: 5.5rem;
 }
 
 .año {
-    background-color: #CF0000;
-    width: 29.5vw;
     padding-right: 4.2rem;
     justify-content: flex-end;
 }
 
 .cards-programas {
     padding: 4rem 0rem;
-    justify-content: space-evenly;
+    overflow-x: scroll;
 }
 
-.card {
-    margin-top: 20px;
-    width: 430px;
+.card {    
+    flex: 0 0 430px;
     height: 430px;
+    margin-right: 2rem;
+    text-decoration: none;
 }
 
 .card h2 {
@@ -279,7 +289,6 @@ fieldset button {
 
 fieldset {
     gap: 3.1rem;
-    ;
 }
 
 form fieldset {
@@ -349,7 +358,6 @@ fieldset button {
 
 .requisitos {
     justify-content: center;
-    flex-direction: column;
     padding-left: 4.6rem;
     height: 36rem;
     font-size: 2rem;
@@ -399,8 +407,7 @@ fieldset button {
 
 .grupo_mision,
 .grupo_vision,
-.principio1,
-.principio2,
+.principio,
 .linea_img,
 .documentos_2023,
 .documentos_2025,
@@ -438,116 +445,73 @@ fieldset button {
 }
 
 .valor p {
+    padding: 0rem 3rem;
     font-weight: bold;
-}
-
-.valor1 h3,
-.valor4 h3,
-.principio h3 {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    align-items: stretch;
-}
-
-.valor1 h3,
-.valor4 h3 {
-    width: 5.7rem;
-}
-
-.valor1 h3 {
-    writing-mode: sideways-lr;
-}
-
-.valor2 h3,
-.valor3 h3,
-.valor5 h3 {
-    height: 5.7rem;
-}
-
-.valor p {
     height: 100%;
 }
 
-.valor1 h3 {
-    background-color: #6CDD3CE5;
-    padding: 0rem 1.7rem;
+.valor h3 {
+    height: 5.7rem;
+    padding: 1.7rem 0rem;
 }
 
-.valor1 p {
+.valor1 h3, .principio1 h3 {
+    background-color: #6CDD3CE5;
+}
+
+.valor1 p, .principio1 p {
     background-color: #6CDD3C66;
-    padding: 0rem 1.5rem;
 }
 
 .valor2 h3 {
     background-color: #760468E5;
-    padding: 1.7rem 0rem;
-}
-
-.valor2,
-.valor3,
-.valor5 {
-    flex-direction: column;
 }
 
 .valor2 p {
     background-color: #76046875;
-    padding: 0rem 4.2rem;
 }
 
 .valor3 h3 {
     background-color: #CF0000E5;
-    padding: 1.75rem 0rem;
 }
 
 .valor3 p {
     background-color: #e78080;
-    padding: 0rem 4.2rem;
 }
 
 .valor4 h3 {
     background-color: #E3129AE5;
-    padding: 0rem 1.75rem;
 }
 
 .valor5 p {
     background-color: #f188cc;
-    padding: 0rem 4.2rem;
 }
 
 .valor5 h3 {
     background-color: #760468E8;
-    padding: 1.75rem 0rem;
 }
 
 .valor4 p {
     background-color: #C08CBA;
-    padding: 0rem 4.2rem;
 }
 
-.principio h3 {
-    height: 383px;
-}
-
-.principio1 h3 {
-    background-color: #6CDD3CE5;
+.principio h3 {    
     padding: 0rem 1.8rem;
-
+    height: 5.7rem;
 }
 
-.principio1 p {
-    background-color: #6CDD3C66;
-    padding-left: 7.2rem;
+.principio p {
+    height: 28rem;    
+    padding: 0rem 3.6rem 0rem 6.6rem;
 }
 
 .principio2 h3 {
     background-color: #760468;
-    padding: 0rem 1.2rem;
 
 }
 
 .principio2 p {
     background-color: #76046875;
-    padding: 0rem 3.6rem 0rem 6.6rem;
 }
 
 /*Estilos seccion cinco historia*/
@@ -605,10 +569,6 @@ fieldset button {
     gap: 13.7rem;
 }
 
-.instituciones figure {
-    flex-direction: column;
-}
-
 .instituciones figure button {
     background-color: #CF0000;
     height: 62px;
@@ -619,7 +579,6 @@ fieldset button {
 }
 
 .reflexion {
-    flex-direction: column;
     align-items: center;
     margin-bottom: 12.6rem;
 }
@@ -679,10 +638,7 @@ footer {
 
 @media screen and (max-width: 780px) {
 
-    html {
-        font-size: 50%;
-    }
-
+    .valor,
     .principio,
     .grupo_mision,
     .grupo_vision,
@@ -694,13 +650,21 @@ footer {
         width: 100%;
     }
 
+    .titulo h2{
+        font-size: 3rem;
+    }
+
     .footer {
         justify-content: center;
     }
 
-    .principio {
-        height: 383px;
-        width: 387.4px;
+    .principio, .valor {
+        height: 200px;
+    }
+
+    .principio p, .valor p{
+        
+        font-weight: normal;
     }
 
     .principios_card {
@@ -730,6 +694,10 @@ footer {
 
     .menu.active {
         display: flex;
+    }
+
+    .botones_documentos_2025, .titulo_documentos_2023 {
+        justify-content: center;
     }
 }
 
