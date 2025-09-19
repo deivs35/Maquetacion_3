@@ -412,7 +412,7 @@ fieldset button {
 .documentos_2023,
 .documentos_2025,
 .inscripciones_preguntas,
-.formulario {
+.formulario, .plan_estudio, .formulario {
     width: 50%;
 }
 
@@ -441,7 +441,7 @@ fieldset button {
 
 .valor {
     height: 383px;
-    width: 387.4px;
+    width: 372px;
 }
 
 .valor p {
@@ -613,6 +613,13 @@ footer {
     width: "566.74px"
 }
 
+/*Diseño web*/
+
+.titulo_presentacion {
+    width: 40%;
+    height: 152px;
+}
+
 
 @media screen and (max-width: 1336px) {
     .inscripciones {
@@ -658,6 +665,10 @@ footer {
         justify-content: center;
     }
 
+    .titulo {
+        padding-left: 1.5rem;
+    }
+
     .principio, .valor {
         height: 200px;
     }
@@ -667,7 +678,7 @@ footer {
         font-weight: normal;
     }
 
-    .principios_card {
+    .principios_card, .titulo_documentos_2023, .botones_documentos_2025 {
         justify-content: center;
     }
 
@@ -694,10 +705,6 @@ footer {
 
     .menu.active {
         display: flex;
-    }
-
-    .botones_documentos_2025, .titulo_documentos_2023 {
-        justify-content: center;
     }
 }
 
