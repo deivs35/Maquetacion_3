@@ -145,12 +145,16 @@ fieldset button {
     margin: 0 auto; 
 }
 
+/*Estilos del header */
+
 header {
-    background-image: url("./assets/student-sharing-her-knowledge-with-her-colleagues\ 1.png");
     background-position: bottom;
     background-repeat: no-repeat;
 }
-/*Estilos del header */
+
+.header {
+    background-image: url("./assets/student-sharing-her-knowledge-with-her-colleagues\ 1.png");
+}
 
 .logo_bilingües {
     background-color: #ffff;
@@ -222,13 +226,28 @@ header {
 
 .hero {
     height: 690px;
-    margin-top: -1.5rem;
-    
+    margin-top: -1.5rem;    
 }
 
 .hero h1 {
     font-size: 9rem;
     padding-left: 5.5rem;
+}
+
+.header1 {
+    background-image: url(./assets/hero-ingles.jpg);
+}
+
+.header2 {
+    background-image: url(./assets/hero-diseñoweb.jpg);
+}
+
+.header4, .header3, .header5 {
+    background-image: url(./assets/hero_adultomayor.jpg);
+}
+
+.header6 {
+    background-image: url(./assets/hero-contable.jpg);
 }
 
 /*Estilos para la primera sección programas*/
@@ -613,12 +632,15 @@ footer {
     width: "566.74px"
 }
 
-/*Diseño web*/
+/*Menu de las pestañas*/
+
+
 
 .titulo_presentacion {
     width: 40%;
     height: 152px;
 }
+
 
 
 @media screen and (max-width: 1336px) {
@@ -639,7 +661,17 @@ footer {
         text-align: center;
     }
 
+    .menu-principal {
+        flex-direction: column-reverse;
+    }
 
+    .menu {
+        gap: 1.5rem;
+    }
+
+    .inicio {
+        display: none;
+    }
 }
 
 
@@ -678,7 +710,7 @@ footer {
         font-weight: normal;
     }
 
-    .principios_card, .titulo_documentos_2023, .botones_documentos_2025 {
+    .principios_card, .botones_documentos_2023, .botones_documentos_2025 {
         justify-content: center;
     }
 
