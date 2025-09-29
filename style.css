@@ -54,7 +54,8 @@ p {
 .logo_der,
 .reflexion,
 fieldset,
-.terminos {
+.terminos,
+.plan_estudio {
     display: flex;
 }
 
@@ -82,7 +83,10 @@ fieldset,
 .titulo_valores,
 .titulo_convenios h2,
 .reflexion p,
-.texto_presentacion {
+.texto_presentacion, 
+.inf-programa,
+.programas h2,
+.b-pestudio {
     text-align: center;
 }
 
@@ -121,6 +125,12 @@ fieldset,
 .hero {
     align-items: end;
 }
+
+.p1 ul,
+.programas p {
+    text-align: justify;
+}
+
 
 .hero h1,
 .titulo,
@@ -379,12 +389,181 @@ header {
     background-image: url("./assets/Rectangle\_27.png");
 }
 
+/*Estilo primera seccion paginas alternas*/
+
+/*ingles*/
+
+.p1 h2 {
+    margin: 60px;
+}
+
+.p1 ul {
+    font-size: 1.8rem;
+    margin:0px 0px 90px 40px;
+    list-style: inside;
+}
+
+.cajai1 {
+    background-color: #CF0000;
+    width: 26px;
+    height: 100%;
+}
+
+.cajai2 {
+    background-color: #CF0000;
+    width: 26px;
+    height: 217px;
+    align-self: end;
+}
+
+.pe1 {
+    margin-top: 57px;
+}
+
+.tf1 {
+    margin-bottom: -3rem;
+}
+
+/*programacion*/
+
+.pe2 {
+    flex-direction: column;
+}
+
+.cajap1, .cajap2 {
+    background-color: #760468;
+    width: 100px;
+    height: 100px;
+}
+
+.cajap2 {
+    align-self: end;
+    margin: auto 0 0;
+}
+
+.p2 {
+    margin: 40px 48px 89px;
+}
+
+.p2 h2 {
+    margin-bottom: 30px;
+}
+
+/*primera infancia*/
+
+.cajain1 {
+    width: 60px;
+    height: 287px;
+    align-self: center;
+    background-color: #E3129AE5;
+}
+
+.p3 {
+    margin: 44px 118px 45px 5px;
+}
+
+.p3 h2 {
+    margin: 94px;
+}
+
+.p3 p {
+    margin-bottom: 50px;
+}
+
+.barra3 {
+    width: 139px;
+    height: 10px;
+    margin: auto;
+    background-color: #E3129AE5;
+}
+
+/*adulto mayor*/
+
+.cajaad1 {
+    width: 60px;
+    height: 133px;
+    margin: 243px 94px 0px 10px;
+    background-color: #4E8AB4;
+}
+
+.p4 {
+    margin-left: 52px;
+}
+
+.p4 h2 {
+    margin:44px 0px 86px 0px ;
+}
+
+.p4 p {
+    margin: 0px 0px 45px;
+}
+
+/*talento humano*/
+
+.cajath1 {
+    width: 60px;
+    height: 133px;
+    margin:0px 94px 200px 10px;
+    background-color: #A46C51;
+}
+
+.p5 {
+    margin-left: 52px;
+}
+
+.p5 h2 {
+    margin:44px 0px 86px 0px ;
+}
+
+.p5 p {
+    margin: 0px 0px 45px;
+}
+
+/*contable*/
+
+.cajaax1 {
+    width: 80px;
+    height: 100%;
+    background-color: #6CDD3C;
+}
+
+.p6 {
+    margin:44px  140px 0px 51px;
+}
+
+.p6 h2 {
+    margin:86px 0px ;
+}
+
+.p6 p {
+    margin-bottom: 41px;
+}
+
 /*Estilos segunda seccion inscripciones*/
 
 .formulario {
-    background-image: url("./assets/coding-man\_1.png");
     background-size: cover;
     background-position: center;
+}
+
+.f1 {
+  background-image: url("./assets/coding-man_1.png");  
+} 
+
+.f2 {
+background-image:url("./assets/form-ingles.jpg") ;
+}
+
+.f3 {
+    background-image:url(./assets/img_prog_form.jpg) ;
+}
+
+.f4 {
+    background-image:url(./assets/form-aux.jpg) ;
+}
+
+.f5 {
+    background-image: url(./assets/form-admin.jpg);
 }
 
 fieldset {
@@ -432,11 +611,20 @@ fieldset input {
     height: 32.6%;
 }
 
+.input7 {
+    width: 96%;
+    height: 32.6%;
+}
+
 fieldset button {
     background-color: #760468;
     height: 72px;
     width: 241px;
     font-size: 2.5rem;
+}
+
+.terminos {
+    gap: inherit;
 }
 
 .terminos input {
