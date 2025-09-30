@@ -15,12 +15,16 @@ body {
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 h3,
 p {
     font-size: 2rem;
+}
+
+li {
+    font-size: 1.8rem;
 }
 
 /*Estilos compartidos*/
@@ -55,7 +59,21 @@ p {
 .reflexion,
 fieldset,
 .terminos,
-.plan_estudio {
+.plan_estudio,
+.titulo-beneficios,
+.titulo-logros,
+.contenedor_beneficios,
+.l1,
+.b2,
+.imagnes-beneficios,
+.b3,
+.tb3,
+.tb4,
+.grupo-imginfan,
+.is2,
+.img-frase,
+.ib5,
+.is6 {
     display: flex;
 }
 
@@ -83,7 +101,7 @@ fieldset,
 .titulo_valores,
 .titulo_convenios h2,
 .reflexion p,
-.texto_presentacion, 
+.texto_presentacion,
 .inf-programa,
 .programas h2,
 .b-pestudio {
@@ -95,7 +113,9 @@ fieldset,
 .valor p,
 .principio h3,
 .principio p,
-.valores_card {
+.valores_card,
+.titulo-beneficios,
+.titulo-logros {
     justify-content: center;
     align-items: center;
 }
@@ -104,7 +124,9 @@ fieldset,
 .valor,
 .principio,
 .instituciones figure,
-.reflexion {
+.reflexion,
+.l1,
+.is2 {
     flex-direction: column;
 }
 
@@ -118,7 +140,9 @@ fieldset,
 .documentos,
 .instituciones,
 .footer,
-.principios_card {
+.principios_card,
+.grupo-imginfan,
+.is6 {
     flex-wrap: wrap;
 }
 
@@ -131,6 +155,34 @@ fieldset,
     text-align: justify;
 }
 
+.grupo_mision,
+.grupo_vision,
+.principio,
+.linea_img,
+.documentos_2023,
+.documentos_2025,
+.inscripciones_preguntas,
+.formulario,
+.plan_estudio,
+.formulario,
+.todos_beneficios,
+.imagnes-beneficios,
+.grupo-imginfan,
+.gb3,
+.l3,
+.gb4,
+.l4,
+.l5,
+.gb5 {
+    width: 50%;
+}
+
+.faja,
+.caja-hero,
+.bt2,
+.tl2 {
+    width: 100%;
+}
 
 .hero h1,
 .titulo,
@@ -154,14 +206,15 @@ fieldset,
 .logo_izq p,
 fieldset button,
 .titulo_presentacion h1,
-.texto_presentacion {
+.texto_presentacion,
+.titulo-beneficios h2,
+.titulo-logros h2 {
     color: #FFFFFF;
 }
 
 /*faja*/
 
 .faja {
-    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -264,6 +317,7 @@ header {
     width: 423px;
     padding: 13px 40px;
 }
+
 .header1 {
     background-image: url(./assets/hero-ingles.jpg);
 }
@@ -286,12 +340,16 @@ header {
     font-size: 3.2rem;
 }
 
-.ht1, .ht3, .hp6 {
+.ht1,
+.ht3,
+.hp6 {
     margin-bottom: auto;
     margin-top: 7px;
 }
 
-.ht2, .ht4, .hp4 {
+.ht2,
+.ht4,
+.hp4 {
     margin: auto 0;
 }
 
@@ -303,7 +361,8 @@ header {
     background-color: #CF0000;
 }
 
-.ht2, .hp2 {
+.ht2,
+.hp2 {
     background-color: #760468;
 }
 
@@ -316,24 +375,27 @@ header {
     margin-right: auto;
 }
 
-.ht4, .hp4  {
-    background-color:#4E8AB4E5;
+.ht4,
+.hp4 {
+    background-color: #4E8AB4E5;
 }
 
 .caja-hero {
-    width: 100%;
     height: 5px;
     background-color: #FFFFFF;
 }
 
-.ht5, .hp5 {
+.ht5,
+.hp5 {
     background-color: #A46C51E5;
 }
+
 .ht5 {
     margin: auto;
 }
 
-.hp6, .ht6 {
+.hp6,
+.ht6 {
     background-color: #6CDD3C;
 }
 
@@ -398,8 +460,7 @@ header {
 }
 
 .p1 ul {
-    font-size: 1.8rem;
-    margin:0px 0px 90px 40px;
+    margin: 0px 0px 90px 40px;
     list-style: inside;
 }
 
@@ -430,7 +491,8 @@ header {
     flex-direction: column;
 }
 
-.cajap1, .cajap2 {
+.cajap1,
+.cajap2 {
     background-color: #760468;
     width: 100px;
     height: 100px;
@@ -491,7 +553,7 @@ header {
 }
 
 .p4 h2 {
-    margin:44px 0px 86px 0px ;
+    margin: 44px 0px 86px 0px;
 }
 
 .p4 p {
@@ -503,7 +565,7 @@ header {
 .cajath1 {
     width: 60px;
     height: 133px;
-    margin:0px 94px 200px 10px;
+    margin: 0px 94px 200px 10px;
     background-color: #A46C51;
 }
 
@@ -512,11 +574,15 @@ header {
 }
 
 .p5 h2 {
-    margin:44px 0px 86px 0px ;
+    margin: 44px 0px 86px 0px;
 }
 
 .p5 p {
     margin: 0px 0px 45px;
+}
+
+.b-p5 {
+    margin-bottom: 97px;
 }
 
 /*contable*/
@@ -528,11 +594,11 @@ header {
 }
 
 .p6 {
-    margin:44px  140px 0px 51px;
+    margin: 44px 140px 0px 51px;
 }
 
 .p6 h2 {
-    margin:86px 0px ;
+    margin: 86px 0px;
 }
 
 .p6 p {
@@ -547,19 +613,19 @@ header {
 }
 
 .f1 {
-  background-image: url("./assets/coding-man_1.png");  
-} 
+    background-image: url("./assets/coding-man_1.png");
+}
 
 .f2 {
-background-image:url("./assets/form-ingles.jpg") ;
+    background-image: url("./assets/form-ingles.jpg");
 }
 
 .f3 {
-    background-image:url(./assets/img_prog_form.jpg) ;
+    background-image: url(./assets/img_prog_form.jpg);
 }
 
 .f4 {
-    background-image:url(./assets/form-aux.jpg) ;
+    background-image: url(./assets/form-aux.jpg);
 }
 
 .f5 {
@@ -584,7 +650,7 @@ form fieldset {
     color: #760468;
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 10.1rem;
+    margin-bottom: 3.1rem;
 }
 
 fieldset input {
@@ -601,18 +667,26 @@ fieldset input {
     height: 6.5rem;
 }
 
-.input3 {
+.input3,
+.input6,
+.input7,
+.in6 {
     width: 96%;
+}
+
+.input3 {
     height: 6.52rem;
 }
 
 .input6 {
-    width: 96%;
     height: 32.6%;
 }
 
+.in6 {
+    height: 6.52rem;
+}
+
 .input7 {
-    width: 96%;
     height: 32.6%;
 }
 
@@ -634,6 +708,8 @@ fieldset button {
 .terminos label {
     font-size: 1.5rem;
 }
+
+/*Segunda seccion inscripciones*/
 
 .titulo_inscripciones {
     background-color: #760468;
@@ -672,6 +748,213 @@ fieldset button {
     border-radius: 2.5rem;
 }
 
+/*Segunda seccion paginas alternas*/
+
+span {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+/*ingles*/
+
+.tb1 {
+    margin-top: 40px;
+}
+
+.l1,
+.l1 ul {
+    align-items: end;
+}
+
+.l1 ul {
+    list-style: inside;
+}
+
+.bt1,
+.tl1 {
+    background-color: #CF0000;
+    height: 56.5px;
+}
+
+.bt1 h2,
+.tl1 h2 {
+    font-size: 3rem;
+}
+
+.bt1 {
+    width: 60%;
+}
+
+.tl1 {
+    width: 40%;
+}
+
+.ib1 {
+    width: 568px;
+    height: 568px;
+}
+
+/*programacion*/
+
+.b2 {
+    margin: 40px;
+}
+
+.ib2 {
+    width: 416px;
+    height: 416px;
+    margin: 0 auto;
+    align-items: self-start;
+}
+
+.bt2,
+.tl2 {
+    background-color: #760468;
+    margin: 0px 0px 25.5px;
+}
+
+.gb2 ul li,
+.l2 ul li {
+    padding: 0px 10px 15px;
+    list-style: none;
+}
+
+.gb2 ul li::before,
+.l2 ul li::before {
+    content: "»";
+}
+
+.ib2 img {
+    margin-bottom: 10px;
+}
+
+.nota2 {
+    width: 570px;
+    height: 100%;
+    margin-top: 20px;
+    text-align: end;
+}
+
+/*primera infancia*/
+
+.grupo-imginfan {
+    gap: 50px;
+    margin: 40px;
+}
+
+.grupo-imginfan img,
+.is2 img, 
+.is6 img {
+    width: 128.5px;
+    height: 128.5px;
+}
+
+.tb3, .tb4 {
+    margin-top: 40px;
+}
+
+.bt3,
+.tl3,
+.bt4,
+.tl4,
+.tl5,
+.bt5,
+.bt6 {
+    width: 80%;
+}
+
+.bt3,
+.tl3 {
+    background-color: #E3129A;
+}
+
+
+.bt3 h2,
+.tl3 h2,
+.bt4 h2,
+.tl4 h2,
+.tl5 h2,
+.bt5 h2,
+.bt6 h2,
+.tl6 h2  {
+    font-size: 2rem;
+}
+
+.gb3 ul,
+.l3 ul,
+.gb4 ul,
+.l4 ul,
+.l5 ul,
+.gb5 ul
+ {
+    padding: 10px 20px;
+}
+
+.is2 img,
+.ib3 img,
+.ib4 img,
+.fraces,
+.l5,
+.ib5,
+.gb5 {
+    margin: 40px;
+}
+
+.fraces {
+    width: 318px;
+    height: auto;
+    align-content: space-around;
+}
+
+/*adulto mayor*/
+
+.barra4 {
+    width: 139px;
+    height: 10px;
+    background-color: #4E8AB4;
+    margin: 30px auto;
+}
+
+.fraces1 {
+    width: 325px;
+    height: auto;
+    justify-self: center;
+}
+
+.bt4,
+.tl4 {
+    background-color:#4E8AB4 ;
+}
+
+/*talento humano*/
+
+.tl5, .bt5 {
+    background-color: #A46C51;
+}
+
+.ib5 {
+    justify-content: space-around;
+}
+
+/*contable*/
+
+.bt6,
+.tl6 {
+    background-color: #6CDD3C;
+}
+
+.is6 {
+    margin-left: 40px;
+    gap: 26px;
+}
+
+.fraces2 {
+    width: 40%;
+    height: auto;
+    margin: auto 0;
+    text-align: center;
+}
+
 /*Estilo de la tercera seccion institucion*/
 
 .titulo_institucion {
@@ -693,18 +976,6 @@ fieldset button {
     padding: 2rem 0rem 2rem 2.5rem;
 }
 
-.grupo_mision,
-.grupo_vision,
-.principio,
-.linea_img,
-.documentos_2023,
-.documentos_2025,
-.inscripciones_preguntas,
-.formulario,
-.plan_estudio,
-.formulario {
-    width: 50%;
-}
 
 .grupo_mision p {
     margin: 5rem 6rem 8.4rem 2.3rem;
@@ -889,7 +1160,7 @@ fieldset button {
 
 /*Estilos footer*/
 
-footer {
+#contacto {
     background-color: black;
 }
 
