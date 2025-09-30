@@ -108,7 +108,8 @@ fieldset,
 .texto_presentacion,
 .inf-programa,
 .programas h2,
-.b-pestudio {
+.b-pestudio,
+.nota1 {
     text-align: center;
 }
 
@@ -654,10 +655,33 @@ form fieldset {
 }
 
 .titulo_formulario {
-    color: #760468;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 3.1rem;
+}
+
+.tf0 {
+    color: #760468;
+}
+
+.tf1 {
+ color: #CF0000;
+}
+
+.tf3 {
+ color: #E3129A;
+}
+
+.tf4 {
+ color: #4E8AB4;
+}
+
+.tf5 {
+ color: #A46C51E5;
+}
+
+.tf6 {
+ color: #6CDD3C;
 }
 
 fieldset input {
@@ -698,10 +722,33 @@ fieldset input {
 }
 
 fieldset button {
-    background-color: #760468;
     height: 72px;
     width: 241px;
     font-size: 2.5rem;
+}
+
+.boton0 button {    
+ background-color: #760468;
+}
+
+.boton1 button {
+ background-color: #CF0000;
+}
+
+.boton3 button {
+ background-color: #E3129A;
+}
+
+.boton4 button {
+ background-color: #4E8AB4;
+}
+
+.boton5 button {
+ background-color: #A46C51E5;
+}
+
+.boton6 button {
+ background-color: #6CDD3C;
 }
 
 .terminos {
@@ -773,7 +820,7 @@ span {
     align-items: end;
 }
 
-.l1 ul {
+.l1 ul, .gb1 ul {
     list-style: inside;
 }
 
@@ -799,6 +846,11 @@ span {
 .ib1 {
     width: 568px;
     height: 568px;
+    margin: 40px;
+}
+
+.nota1 {
+    margin: 20px 0px;
 }
 
 /*programacion*/
@@ -1237,7 +1289,9 @@ span {
     }
 
     .inscripciones_preguntas,
-    .formulario {
+    .formulario,
+    .plan_estudio,
+    .fraces1, .bt1, .tl1 {
         width: 100%;
     }
 
@@ -1245,7 +1299,7 @@ span {
         margin-bottom: 1rem;
     }
 
-    .respuesta p {
+    .respuesta p, .bt1 {
         text-align: center;
     }
 
@@ -1256,10 +1310,38 @@ span {
     .inicio {
         display: none;
     }
+
+    .fraces1, .b-p6 h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .tb1, .tl1 {
+        margin: 40px 0px 20px 40px ;
+    }
+
+    .bt1 {
+        padding: 40px;
+    }
 }
 
-
 @media screen and (max-width: 780px) {
+
+    .cb1, .prog_footer {
+        flex-direction: column;
+    }
+
+    .informacion_footer {
+        flex-direction: column-reverse;
+    }
+
+    
+    .informacion_footer,
+    .prog_footer,
+    .prog_footer ul,
+    .menu {
+        text-align: center;
+    }
 
     .valor,
     .principio,
@@ -1326,6 +1408,15 @@ span {
     .menu.active {
         display: flex;
     }
+
+    .ib1 {
+        align-self: center;
+    }
+
+    .tb1 {
+        margin: 40px auto;
+    }
+
 }
 
 
