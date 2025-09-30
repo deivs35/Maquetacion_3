@@ -73,7 +73,9 @@ fieldset,
 .is2,
 .img-frase,
 .ib5,
-.is6 {
+.is6,
+.informacion_footer,
+.prog_footer {
     display: flex;
 }
 
@@ -81,7 +83,9 @@ fieldset,
 .titulo-programas,
 .footer,
 .terminos,
-.hero {
+.hero,
+.informacion_footer,
+.prog_footer{
     justify-content: space-between;
 }
 
@@ -208,7 +212,10 @@ fieldset button,
 .titulo_presentacion h1,
 .texto_presentacion,
 .titulo-beneficios h2,
-.titulo-logros h2 {
+.titulo-logros h2,
+.informacion_footer ul,
+.prog_footer ul
+{
     color: #FFFFFF;
 }
 
@@ -1175,6 +1182,54 @@ span {
     height: "144.9px";
     width: "566.74px"
 }
+
+/*Estilos footer paginas alternas*/
+
+.footer1 {
+    background-color: #A90000;
+}
+
+.footer2 {
+    background-color: #760468;
+}
+
+.footer3 {
+    background-color: #E3129ADB;
+}
+
+.footer4 {
+    background-color: #4E8AB4DB;
+}
+
+.footer5 {
+    background-color: #A46C51DB;
+}
+
+.footer6 {
+    background-color: #458929;
+}
+
+.informacion_footer {
+    padding: 40px;
+}
+
+.informacion_footer ul {
+    width: 638px;
+    height: auto;
+    list-style: none;
+    align-self: flex-end;
+}
+
+.prog_footer {
+    padding-bottom: 40px;
+}
+
+.prog_footer ul {
+   list-style: none;
+   text-align: end;
+}
+
+
 
 @media screen and (max-width: 1336px) {
     .inscripciones {
