@@ -75,7 +75,8 @@ fieldset,
 .ib5,
 .is6,
 .informacion_footer,
-.prog_footer {
+.prog_footer,
+.sub_menu {
     display: flex;
 }
 
@@ -295,6 +296,11 @@ header {
 
 .sub_menu {
     width: 165px;
+    font-weight: bold;
+    list-style: none;
+    width: auto;
+    gap: 3rem;
+    justify-content: flex-end;
 }
 
 .sub_menu li {
@@ -306,7 +312,17 @@ header {
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
+    transition: all 0.3s ease;
+
 }
+
+.sub-menu-items:hover {
+    border-bottom: 2px solid #eb0b0b;
+    color: #c20808;    
+    background: linear-gradient(90deg,rgba(180, 143, 58, 0.83) 0%, rgba(253, 29, 29, 0.8) 50%, rgba(252, 176, 69, 0.76) 100%);     
+    border-radius: 2.5rem;    
+}
+
 
 
 /*Estilo de todos los header*/
@@ -1284,7 +1300,12 @@ span {
 
 
 @media screen and (max-width: 1336px) {
-    .inscripciones {
+    .beneficios {
+        display: flex;
+    }
+    
+    .inscripciones,
+    .beneficios {
         flex-direction: column;
     }
 
@@ -1413,7 +1434,7 @@ span {
         align-self: center;
     }
 
-    .tb1 {
+    .todos_beneficios {
         margin: 40px auto;
     }
 
